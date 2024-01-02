@@ -1,0 +1,25 @@
+{
+    "editor.accessibilitySupport": "off",
+    "workbench.colorTheme": "Eclipse Light by Solrike",
+    "workbench.iconTheme": "eclipse-file-icons-by-solrike",
+    "workbench.productIconTheme": "eclipse-product-icons-by-solrike",
+    "redhat.telemetry.enabled": false,
+    "kotlin.java.home": "/usr/local/Cellar/openjdk@17/17.0.7/libexec/openjdk.jdk/Contents/Home",
+    "editor.minimap.enabled": false,
+    "java.edit.smartSemicolonDetection.enabled": true,
+    "java.compile.nullAnalysis.nonnull": [
+
+        "javax.annotation.Nonnull",
+        "org.eclipse.jdt.annotation.NonNull",
+        "org.springframework.lang.NonNull",
+        "io.micronaut.core.annotation.NonNull"
+    ],
+    "java.compile.nullAnalysis.nullable": [
+
+        "javax.annotation.Nullable",
+        "org.eclipse.jdt.annotation.Nullable",
+        "org.springframework.lang.Nullable",
+        "io.micronaut.core.annotation.Nullable"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}
