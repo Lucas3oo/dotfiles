@@ -1,5 +1,5 @@
 [include]
-	path = .gitconfig.inc
+	path = ~/.gitconfig.inc
 [user]
         name = Lucas Persson
         email = Lucas3oo@users.noreply.github.com
