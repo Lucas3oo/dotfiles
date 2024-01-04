@@ -1,12 +1,4 @@
-
 source ~/.alias
-
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
-
 
 export HOMEBREW_NO_AUTO_UPDATE=1
 
@@ -19,6 +11,14 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 else
         # Unknown.
 fi
+
+# jenv after brew since it is installed with brew
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
 
 if [ -f $HOME/.zprofile.inc ]; then
 	source $HOME/.zprofile.inc
